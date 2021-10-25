@@ -31,6 +31,8 @@
 	<li><button onclick="fbq('track', 'Purchase', {currency: 'USD', value: 30.00}); alert('Purchase event fired')"><h3>Purchase</h3></button></li>
 </ul>
 
+<script type="text/javascript">fbq('track', 'PageView');</script>
+<script type="text/javascript">fbq('track', 'PageView');</script>
 
 </body>
 </html>
