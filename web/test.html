@@ -1,0 +1,17 @@
+<html><head> 
+<title>blue</title> 
+<SCRIPT> 
+function ow(owurl){ 
+var tmp=window.open("about:blank","","fullscreen=1") 
+tmp.moveTo(0,0); 
+tmp.resizeTo(screen.width+20,screen.height); 
+tmp.focus(); 
+tmp.location=owurl; 
+} 
+var url = window.location.href;
+alert(url);
+
+ow(url);
+</SCRIPT> 
+</head> 
+<body> 
