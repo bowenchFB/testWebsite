@@ -13,7 +13,7 @@
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1298297157256332');
+  fbq('init', '1298297157256332', {country: "9732c83e3e03fffde2ee65a9d826df8c4dd623c27fb92b952fe62a02f0726f87"});
   fbq('init', '891482241535644');
   fbq('track', 'PageView');
 </script>
